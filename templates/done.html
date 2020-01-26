@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hybrid-Crptography</title>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    .alert{
+      margin:15px 200px;
+      
+    }
+    .btn{
+      margin:25px;
+    }
+    .jumbotron {
+  background-image: url("https://cdn-images-1.medium.com/max/1200/1*zSPtMkp70YN9JDhFRaHHXA.jpeg");
+  background-size: cover;
+}
+
+  </style>
+</head>
+<body class="bg-dark mt-3">
+<div class="container bg-light pt-3" style="border-radius: 10px;">
+          
+          <div class="jumbotron jumbotron-fluid wow bounceInLeft">
+            <div class="container">
+              <h1 class="display-4 text-center text-light" >Hybrid Crptography for Cloud Storage</h1>
+              <!--<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>-->
+            </div>
+          </div>
+          <div class="alert alert-success" role="alert">
+  <center>
+  <h4 class="alert-heading">Well done!</h4>
+  <p>Your file has been decrypted.</p>
+  <hr>
+  <p class="mb-0">Check the file 
+  <a href="/abc" download>
+  <b>abc</b>
+</a></p>
+  </center>
+</div>
+          <div class="row">
+            <div class="col-md-4">
+              <center>
+              <div class="card text-white bg-dark mb-3 wow fadeInLeft" style="max-width: 18rem;">
+                <div class="card-header text-center"><b>Generate Keys</b></div>
+                <div class="card-body">
+                  <center><img src="https://cdn3.iconfinder.com/data/icons/basics-material-design-vol-1/100/material_design_interface_key_lock_unlock-512.png"  width="100px"></img></center>
+    
+                  <button type="button" onclick="window.location.href='/key'" class="btn btn-info disabled">Keys</button>
+                  <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                </div>
+              </div>
+              </center>
+            </div>
+            <div class="col-md-4">
+              <center>
+              <div class="card text-white bg-dark mb-3 wow fadeInDown" style="max-width: 18rem;">
+                <div class="card-header text-center"><b>Encryption</b></div>
+                <div class="card-body">
+                  <center><img src="https://cdn3.iconfinder.com/data/icons/basics-material-design-vol-1/100/material_design_interface_lock_key_unlock-512.png" width="100px"></img></center>
+                  
+                   <button type="button" onclick="window.location.href='/encrypt'"  class="btn btn-success disabled">Encryption</button>
+                  <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                </div>
+              </div>
+              </center>
+            </div>
+            <div class="col-md-4">
+              <center>
+              <div class="card text-white bg-dark mb-3 wow fadeInRight" style="max-width: 18rem;">
+                <div class="card-header text-center"><b>Decryption</b></div>
+                <div class="card-body">
+                  <center><img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698843-icon-116-lock-open-512.png" width="100px"></img></center>
+                  
+                  <button type="button" onclick="window.location.href='/decrypt'"  class="btn btn-danger disabled">Decryption</button>
+                  <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                </div>
+              </div>
+              </center>
+            </div>
+          </div>
+          <hr>
+
+  
+  
+ 
+  
+</div>
+
+<button type="button" onclick="window.location.href='/'"  class="btn btn-primary btn-lg ">Back to Home</button>
+</body>
+</html>
